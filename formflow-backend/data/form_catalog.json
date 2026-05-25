@@ -1,0 +1,66 @@
+[
+    {
+      "id": "irs_8822",
+      "title": "IRS Form 8822 — Change of Address",
+      "description": "Notify the IRS of a change to your home mailing address.",
+      "life_events": ["moving", "address_change", "relocating"],
+      "keywords": ["moving", "move", "address", "relocate", "new home", "new apartment", "irs", "tax"],
+      "local_path": "forms/irs_8822.pdf",
+      "fillable": true,
+      "official_source": "IRS",
+      "fields": [
+        { "field_name": "full_name", "type": "text", "required": true },
+        { "field_name": "ssn", "type": "text", "required": true },
+        { "field_name": "old_address", "type": "text", "required": true },
+        { "field_name": "old_city", "type": "text", "required": true },
+        { "field_name": "old_state", "type": "text", "required": true },
+        { "field_name": "old_zip", "type": "text", "required": true },
+        { "field_name": "new_address", "type": "text", "required": true },
+        { "field_name": "new_city", "type": "text", "required": true },
+        { "field_name": "new_state", "type": "text", "required": true },
+        { "field_name": "new_zip", "type": "text", "required": true }
+      ]
+    },
+    {
+      "id": "rental_application",
+      "title": "Rental Application",
+      "description": "Standard rental application for a new apartment or house.",
+      "life_events": ["renting", "moving", "new_apartment"],
+      "keywords": ["rent", "renting", "apartment", "lease", "landlord", "tenant", "moving", "housing"],
+      "local_path": "forms/rental_application_demo.pdf",
+      "fillable": true,
+      "official_source": "Demo",
+      "fields": [
+        { "field_name": "tenant_full_name", "type": "text", "required": true },
+        { "field_name": "tenant_email", "type": "email", "required": true },
+        { "field_name": "tenant_phone", "type": "text", "required": true },
+        { "field_name": "tenant_dob", "type": "date", "required": true },
+        { "field_name": "current_address", "type": "text", "required": true },
+        { "field_name": "desired_move_in", "type": "date", "required": true },
+        { "field_name": "monthly_income", "type": "text", "required": true },
+        { "field_name": "employer_name", "type": "text", "required": false },
+        { "field_name": "emergency_contact_name", "type": "text", "required": false },
+        { "field_name": "emergency_contact_phone", "type": "text", "required": false }
+      ]
+    },
+    {
+      "id": "dmv_change_of_address",
+      "title": "DMV Change of Address",
+      "description": "Update your driver's license address with your state DMV.",
+      "life_events": ["moving", "address_change", "license"],
+      "keywords": ["dmv", "license", "driver", "moving", "address", "car", "vehicle", "registration"],
+      "local_path": "forms/dmv_address_change.pdf",
+      "fillable": true,
+      "official_source": "DMV",
+      "fields": [
+        { "field_name": "full_name", "type": "text", "required": true },
+        { "field_name": "license_number", "type": "text", "required": true },
+        { "field_name": "date_of_birth", "type": "date", "required": true },
+        { "field_name": "old_address", "type": "text", "required": true },
+        { "field_name": "new_address", "type": "text", "required": true },
+        { "field_name": "new_city", "type": "text", "required": true },
+        { "field_name": "new_state", "type": "text", "required": true },
+        { "field_name": "new_zip", "type": "text", "required": true }
+      ]
+    }
+  ]
